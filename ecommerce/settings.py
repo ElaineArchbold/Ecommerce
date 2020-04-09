@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'), '8000-a65ee431-1c19-4585-a384-d8df0e2b91d2.ws-eu01.gitpod.io']
+ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'), '8000-a65ee431-1c19-4585-a384-d8df0e2b91d2.ws-eu01.gitpod.io', 'elaines-ecommerce.herokuapp.com']
 
 
 # Application definition
